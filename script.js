@@ -16,7 +16,7 @@ function initContactForm() {
             
             setTimeout(() => {
                 console.log('Form submitted:', data);
-                status.textContent = '✓ Message sent successfully! We will get back to you soon.';
+                status.textContent = 'Message sent successfully! We will get back to you soon.';
                 status.className = 'form-status success';
                 form.reset();
             }, 1500);
@@ -35,3 +35,8 @@ function initProjects() {
         });
     });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    initProjects();
+    initContactForm();
+});

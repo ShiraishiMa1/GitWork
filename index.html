@@ -1,91 +1,130 @@
-<section id="projects">
-    <h2>Our Projects</h2>
-    <div class="projects-grid">
-        <div class="project-card" data-project="1">
-            <h3>🚀 Project Alpha</h3>
-            <p>A revolutionary web application for task management.</p>
-            <div class="project-tags">
-                <span class="tag">React</span>
-                <span class="tag">Node.js</span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section id="members">
+            <h2>Meet the Team</h2>
+            <div class="members-grid">
+                <div class="member-card">
+                    <div class="member-avatar">👤</div>
+                    <h3>Tim Han</h3>
+                    <p class="role">Developer</p>
+                    <p class="bio">Passionate about clean code and best practices.</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar">👤</div>
+                    <h3>Sophie Zhang</h3>
+                    <p class="role">Designer</p>
+                    <p class="bio">Creating beautiful user experiences.</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar">👤</div>
+                    <h3>Pearl Ma</h3>
+                    <p class="role">Developer</p>
+                    <p class="bio">Full-stack enthusiast and problem solver.</p>
+                </div>
             </div>
-            <button class="project-btn">View Details</button>
-        </div>
-        <div class="project-card" data-project="2">
-            <h3>📊 Data Dashboard</h3>
-            <p>Real-time analytics and visualization platform.</p>
-            <div class="project-tags">
-                <span class="tag">Python</span>
-                <span class="tag">D3.js</span>
-            </div>
-            <button class="project-btn">View Details</button>
-        </div>
-        <div class="project-card" data-project="3">
-            <h3>🛒 E-Commerce API</h3>
-            <p>Scalable REST API for online stores.</p>
-            <div class="project-tags">
-                <span class="tag">Java</span>
-                <span class="tag">Spring Boot</span>
-            </div>
-            <button class="project-btn">View Details</button>
-        </div>
-    </div>
-</section> 
-<section id="skills">
-    <h2>Our Skills</h2>
-    <div class="skills-container">
-        <div class="skill-item">
-            <span class="skill-name">JavaScript</span>
-            <div class="skill-bar">
-                <div class="skill-progress" style="width: 90%;"></div>
-            </div>
-        </div>
-        <div class="skill-item">
-            <span class="skill-name">Python</span>
-            <div class="skill-bar">
-                <div class="skill-progress" style="width: 85%;"></div>
-            </div>
-        </div>
-        <div class="skill-item">
-            <span class="skill-name">Git</span>
-            <div class="skill-bar">
-                <div class="skill-progress" style="width: 95%;"></div>
-            </div>
-        </div>
-        <div class="skill-item">
-            <span class="skill-name">CSS/Design</span>
-            <div class="skill-bar">
-                <div class="skill-progress" style="width: 80%;"></div>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
+        <section id="skills">
+            <h2>Our Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Python</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Git</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">CSS/Design</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <form id="contact-form" class="contact-form">
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required placeholder="Your name">
-        </div>
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required placeholder="your@email.com">
-        </div>
-        <div class="form-group">
-            <label for="subject">Subject</label>
-            <select id="subject" name="subject" required>
-                <option value="">Select a subject</option>
-                <option value="general">General Inquiry</option>
-                <option value="project">Project Collaboration</option>
-                <option value="feedback">Feedback</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
-        </div>
-        <button type="submit" class="submit-btn">Send Message</button>
-    </form>
-    <div id="form-status" class="form-status"></div>
-</section>
+        <section id="projects">
+            <h2>Our Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="1">
+                    <h3>🚀 Project Alpha</h3>
+                    <p>A revolutionary web application for task management.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                    <button class="project-btn">View Details</button>
+                </div>
+                <div class="project-card" data-project="2">
+                    <h3>📊 Data Dashboard</h3>
+                    <p>Real-time analytics and visualization platform.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">D3.js</span>
+                    </div>
+                    <button class="project-btn">View Details</button>
+                </div>
+                <div class="project-card" data-project="3">
+                    <h3>🛒 E-Commerce API</h3>
+                    <p>Scalable REST API for online stores.</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Spring Boot</span>
+                    </div>
+                    <button class="project-btn">View Details</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="project">Project Collaboration</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div id="form-status" class="form-status"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
