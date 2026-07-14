@@ -1,39 +1,28 @@
-.members-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+.skills-container {
     margin-top: 20px;
 }
 
-.member-card {
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    transition: transform 0.3s ease;
+.skill-item {
+    margin-bottom: 15px;
 }
 
-.member-card:hover {
-    transform: translateY(-5px);
-}
-
-.member-avatar {
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-
-.member-card h3 {
-    color: #333;
+.skill-name {
+    display: block;
     margin-bottom: 5px;
-}
-
-.member-card .role {
-    color: #007bff;
     font-weight: bold;
-    margin-bottom: 10px;
+    color: #333;
 }
 
-.member-card .bio {
-    color: #666;
-    font-size: 14px;
+.skill-bar {
+    background: #e0e0e0;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease;
 }
