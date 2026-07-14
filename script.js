@@ -22,6 +22,7 @@ function initContactForm() {
             }, 1500);
         });
     }
+}
 
 function initProjects() {
     const projectButtons = document.querySelectorAll('.project-btn');
